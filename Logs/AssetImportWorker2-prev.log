@@ -1,0 +1,346 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.29f1 (8d510ca76d2b) revision 9261324'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'es' Physical Memory: 15743 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.29f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Usuario/Crazy kitchen
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+50664
+Successfully changed project path to: C:/Users/Usuario/Crazy kitchen
+C:/Users/Usuario/Crazy kitchen
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [7344] Host "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 3758669160 [EditorId] 3758669160 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NV7RIE9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [7344] Host "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 3758669160 [EditorId] 3758669160 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NV7RIE9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 11.91 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.29f1 (8d510ca76d2b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Usuario/Crazy kitchen/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006419 seconds.
+- Loaded All Assemblies, in  0.376 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.263 seconds
+Domain Reload Profiling: 638ms
+	BeginReloadAssembly (143ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (133ms)
+		LoadAssemblies (140ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (131ms)
+			TypeCache.Refresh (129ms)
+				TypeCache.ScanAssembly (115ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (264ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (207ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (143ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.823 seconds
+Refreshing native plugins compatible for Editor in 4.50 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.646 seconds
+Domain Reload Profiling: 1462ms
+	BeginReloadAssembly (183ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (539ms)
+		LoadAssemblies (484ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (176ms)
+			TypeCache.Refresh (155ms)
+				TypeCache.ScanAssembly (135ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (646ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (488ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (380ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 6.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3744 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (59.7 KB). Loaded Objects now: 4203.
+Memory consumption went from 132.7 MB to 132.6 MB.
+Total: 4.015100 ms (FindLiveObjects: 0.497100 ms CreateObjectMapping: 0.177600 ms MarkObjects: 3.194100 ms  DeleteObjects: 0.144800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5018.337706 seconds.
+  path: Assets/GASTRO_Sushi_Food_Pack_FREE/Meshes/Tray_Wood_Dark_Medium_002.fbx
+  artifactKey: Guid(5c4dc96258dd6574498cbf43a14d4490) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GASTRO_Sushi_Food_Pack_FREE/Meshes/Tray_Wood_Dark_Medium_002.fbx using Guid(5c4dc96258dd6574498cbf43a14d4490) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '666ff31a2c4ce6f6d0cac13481c1601d') in 0.141164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/GASTRO_Sushi_Food_Pack_FREE/Materials
+  artifactKey: Guid(49cac1a5886961941996253833019245) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GASTRO_Sushi_Food_Pack_FREE/Materials using Guid(49cac1a5886961941996253833019245) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'abc5e966ed0e654db5c938dba7178593') in 0.010908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GASTRO_Sushi_Food_Pack_FREE/Meshes/Sushi_Small_Narrow_Tuna_001.fbx
+  artifactKey: Guid(e0b1a578475ee764897c6c64363dd533) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GASTRO_Sushi_Food_Pack_FREE/Meshes/Sushi_Small_Narrow_Tuna_001.fbx using Guid(e0b1a578475ee764897c6c64363dd533) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '709b250463f94c0524e814d7495fb86e') in 0.022412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GASTRO_Sushi_Food_Pack_FREE/Prefabs/Box_Plastic_Black_Small_001.prefab
+  artifactKey: Guid(0027f7231d3f1cf44ab05c8b2e40407c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GASTRO_Sushi_Food_Pack_FREE/Prefabs/Box_Plastic_Black_Small_001.prefab using Guid(0027f7231d3f1cf44ab05c8b2e40407c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0c5b94189492ab034e984c20617d2f21') in 0.017625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GASTRO_Sushi_Food_Pack_FREE/Meshes/Sushi_Small_Nori_004.fbx
+  artifactKey: Guid(18676cbbba279944e8df94b2183c8a64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GASTRO_Sushi_Food_Pack_FREE/Meshes/Sushi_Small_Nori_004.fbx using Guid(18676cbbba279944e8df94b2183c8a64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd7ce2ea22327f53c65a99f371d4af20a') in 0.020830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GASTRO_Sushi_Food_Pack_FREE/Meshes/Rice_001.fbx
+  artifactKey: Guid(ee4c9acd80115834798ed7b4a01f122f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GASTRO_Sushi_Food_Pack_FREE/Meshes/Rice_001.fbx using Guid(ee4c9acd80115834798ed7b4a01f122f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3e95c7c48b00522006c3449d0841f989') in 0.020769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GASTRO_Sushi_Food_Pack_FREE/Prefabs/Box_Plastic_White_Small_001.prefab
+  artifactKey: Guid(340f09664970f844c8c298a160766594) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GASTRO_Sushi_Food_Pack_FREE/Prefabs/Box_Plastic_White_Small_001.prefab using Guid(340f09664970f844c8c298a160766594) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd9ac87bdf247242b1a7dabc828acaea3') in 0.023316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/GASTRO_Sushi_Food_Pack_FREE/Meshes/Salmon_Cut_005.fbx
+  artifactKey: Guid(85602fad35317bc468b58087893f2316) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GASTRO_Sushi_Food_Pack_FREE/Meshes/Salmon_Cut_005.fbx using Guid(85602fad35317bc468b58087893f2316) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '21117405066eaec4b94c86b31200b6d9') in 0.020152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CustomActions.inputactions
+  artifactKey: Guid(0b66b42419df4ae4b964c1825d5851b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CustomActions.inputactions using Guid(0b66b42419df4ae4b964c1825d5851b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '62a8da02a9926ea25b4b1d8c66b80f17') in 0.028363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GASTRO_Sushi_Food_Pack_FREE/Meshes/Salmon_Cut_001.fbx
+  artifactKey: Guid(d9633ee3b8a57bc4e8e56de54e283c8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GASTRO_Sushi_Food_Pack_FREE/Meshes/Salmon_Cut_001.fbx using Guid(d9633ee3b8a57bc4e8e56de54e283c8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5184a4f30b72129a0d0610c78376176c') in 0.027118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/Restaurant/NavMesh-Enviroment.asset
+  artifactKey: Guid(671f53ec613cd5049bfcab98a6f549a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Restaurant/NavMesh-Enviroment.asset using Guid(671f53ec613cd5049bfcab98a6f549a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4df17bf1238eb91643ac7e7de713974f') in 0.019924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Character/Walking.anim
+  artifactKey: Guid(022657703ff3c6b44b41591c3617edf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Character/Walking.anim using Guid(022657703ff3c6b44b41591c3617edf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9f877b4b0e5b47e632dd3975d3ba0dc3') in 0.028166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/GASTRO_Sushi_Food_Pack_FREE/Meshes/Sushi_Small_Nori_001.fbx
+  artifactKey: Guid(85e41916db21fda409cb0969d5cdbc38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GASTRO_Sushi_Food_Pack_FREE/Meshes/Sushi_Small_Nori_001.fbx using Guid(85e41916db21fda409cb0969d5cdbc38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '90d051bdb28897566946040444e2ec18') in 0.020293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/GASTRO_Sushi_Food_Pack_FREE/Prefabs/Sushi_Small_Narrow_Tuna_Fat_002.prefab
+  artifactKey: Guid(4906ae69bbb4db34bae1e208de9769f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GASTRO_Sushi_Food_Pack_FREE/Prefabs/Sushi_Small_Narrow_Tuna_Fat_002.prefab using Guid(4906ae69bbb4db34bae1e208de9769f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e5770b67e237218ccb1f878fc4b23fdf') in 0.018524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GASTRO_Sushi_Food_Pack_FREE/Meshes/Sushi_Long_Nori_004.fbx
+  artifactKey: Guid(83016b24e2cdca0469dbb45aff7b0181) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GASTRO_Sushi_Food_Pack_FREE/Meshes/Sushi_Long_Nori_004.fbx using Guid(83016b24e2cdca0469dbb45aff7b0181) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8551277c5fe48d39d07a7994699a3e67') in 0.016729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GASTRO_Sushi_Food_Pack_FREE/Prefabs/Sushi_Small_Nori_004.prefab
+  artifactKey: Guid(8f3f35261b743bc4fa696a9803503536) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GASTRO_Sushi_Food_Pack_FREE/Prefabs/Sushi_Small_Nori_004.prefab using Guid(8f3f35261b743bc4fa696a9803503536) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8ac56feedd7aef605fffef4ac9cda625') in 0.016246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/GASTRO_Sushi_Food_Pack_FREE/Meshes/Nigiri_Tuna_001.fbx
+  artifactKey: Guid(48808ad0ce89fdb40b6c59ddad7f452f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GASTRO_Sushi_Food_Pack_FREE/Meshes/Nigiri_Tuna_001.fbx using Guid(48808ad0ce89fdb40b6c59ddad7f452f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0ec7487e6ebe43efa3ef50d11d83322a') in 0.016611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GASTRO_Sushi_Food_Pack_FREE/Prefabs/Box_Plastic_White_Small_002.prefab
+  artifactKey: Guid(3ab41f598b638d3438aef15c36dc31fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GASTRO_Sushi_Food_Pack_FREE/Prefabs/Box_Plastic_White_Small_002.prefab using Guid(3ab41f598b638d3438aef15c36dc31fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '48960df8f9758b1eb9afb9231dd8347f') in 0.019807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GASTRO_Sushi_Food_Pack_FREE/Meshes/Nigiri_Tuna_Fat_001.fbx
+  artifactKey: Guid(41ec0b2ce5e91794e857b7fd1abcceaf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GASTRO_Sushi_Food_Pack_FREE/Meshes/Nigiri_Tuna_Fat_001.fbx using Guid(41ec0b2ce5e91794e857b7fd1abcceaf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1fb8de0d22c71c28cd8831f88f434e99') in 0.022641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Character
+  artifactKey: Guid(be6562ec25d96174dbe2721f038402aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Character using Guid(be6562ec25d96174dbe2721f038402aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8b45850b794f8a7c171a9e27291f51eb') in 0.010835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

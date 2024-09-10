@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Crazy kitchen\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{56C72234-64E7-E817-D621-B65AFAE49B3C}|Assembly-CSharp.csproj|c:\\users\\usuario\\crazy kitchen\\assets\\scripts\\knifecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56C72234-64E7-E817-D621-B65AFAE49B3C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\knifecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56C72234-64E7-E817-D621-B65AFAE49B3C}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\Crazy kitchen\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56C72234-64E7-E817-D621-B65AFAE49B3C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56C72234-64E7-E817-D621-B65AFAE49B3C}|Assembly-CSharp.csproj|c:\\users\\usuario\\crazy kitchen\\assets\\scripts\\draganddrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56C72234-64E7-E817-D621-B65AFAE49B3C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\draganddrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56C72234-64E7-E817-D621-B65AFAE49B3C}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\Crazy kitchen\\assets\\scripts\\cam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56C72234-64E7-E817-D621-B65AFAE49B3C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56C72234-64E7-E817-D621-B65AFAE49B3C}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\Crazy kitchen\\assets\\scripts\\newbehaviourscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56C72234-64E7-E817-D621-B65AFAE49B3C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\newbehaviourscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56C72234-64E7-E817-D621-B65AFAE49B3C}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\Crazy kitchen\\Assets\\Scripts\\CustomActions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56C72234-64E7-E817-D621-B65AFAE49B3C}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\CustomActions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DragAndDrop.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Crazy kitchen\\Assets\\Scripts\\DragAndDrop.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DragAndDrop.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Crazy kitchen\\Assets\\Scripts\\DragAndDrop.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DragAndDrop.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T00:53:11.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cam.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Crazy kitchen\\Assets\\Scripts\\Cam.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Cam.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Crazy kitchen\\Assets\\Scripts\\Cam.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Cam.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowC4AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T21:43:58.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Crazy kitchen\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Crazy kitchen\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAQwDMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T23:22:01.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KnifeController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Crazy kitchen\\Assets\\Scripts\\KnifeController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\KnifeController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Crazy kitchen\\Assets\\Scripts\\KnifeController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\KnifeController.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAwwGEAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T15:01:18.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomActions.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Crazy kitchen\\Assets\\Scripts\\CustomActions.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CustomActions.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Crazy kitchen\\Assets\\Scripts\\CustomActions.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CustomActions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJ0AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T00:02:07.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NewBehaviourScript.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Crazy kitchen\\Assets\\Scripts\\NewBehaviourScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NewBehaviourScript.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Crazy kitchen\\Assets\\Scripts\\NewBehaviourScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NewBehaviourScript.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T23:48:11.41Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
