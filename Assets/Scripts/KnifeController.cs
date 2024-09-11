@@ -72,16 +72,23 @@ public class KnifeController : MonoBehaviour
     }
 
     public float leftOffset = 0.2f;
+    public float leftOffset2 = 0.8f;
     void CheckCut()
     {
         // Definir el desplazamiento hacia la izquierda
         Vector3 rayOrigin = transform.position + transform.right * -leftOffset; // Restar para mover a la izquierda
 
+        Vector3 rayOrigin2 = transform.position + transform.right * -leftOffset2;
+
         Ray ray = new Ray(rayOrigin, Vector3.down); // Lanzar el Raycast hacia abajo desde la nueva posición
         RaycastHit hit;
 
+        Ray ray2 = new Ray(rayOrigin2, Vector3.down);
+
+
         // Visualizar el Raycast en la escena
         Debug.DrawRay(rayOrigin, Vector3.down * raycastMaxDistance, Color.red);
+        Debug.DrawRay(rayOrigin2, Vector3.down * raycastMaxDistance, Color.blue);
 
         // Usar raycastMaxDistance para limitar la distancia de detección
         if (Physics.Raycast(ray, out hit, raycastMaxDistance, sushiLayerMask))
@@ -89,6 +96,37 @@ public class KnifeController : MonoBehaviour
             Debug.Log("¡Sushi detectado! Preparado para cortar.");
         }
         else if (Physics.Raycast(ray, out hit, raycastMaxDistance, tableLayerMask))
+        {
+            Debug.Log("¡Corte realizado en la mesa!");
+
+            if (cuttingBoard != null)
+            {
+                cuttingBoard.SetActive(false); // Desactiva el GameObject de la tabla de cortar
+                particleEffectPrefab.SetActive(true);
+            }
+
+            if (!objectInstantiated && newObjectPrefab != null)
+            {
+                // Instanciar el nuevo GameObject en la posición del Raycast (posición de la mesa)
+                Instantiate(newObjectPrefab, hit.point, Quaternion.identity);
+                objectInstantiated = true; // Marcar como instanciado
+                newObjectPrefab.SetActive(true);
+
+                // Instanciar el sistema de partículas en la misma posición
+                if (particleEffectPrefab != null)
+                {
+                    Instantiate(particleEffectPrefab, hit.point, Quaternion.identity);
+                }
+            }
+
+            canDescend = false; // Detener el descenso al detectar la mesa
+        }
+
+        if (Physics.Raycast(ray2, out hit, raycastMaxDistance, sushiLayerMask))
+        {
+            Debug.Log("¡Sushi detectado! Preparado para cortar.");
+        }
+        else if (Physics.Raycast(ray2, out hit, raycastMaxDistance, tableLayerMask))
         {
             Debug.Log("¡Corte realizado en la mesa!");
 
